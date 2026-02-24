@@ -1,7 +1,23 @@
-.grid{
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(135deg, #fff5f8, #f6f0ff);
+}
+
+h1 {
+  text-align: center;
+  color: #4a274f;
+  margin-top: 1rem;
+}
+
+.status-text {
+  text-align: center;
+  color: #4a274f;
+}
+
+.grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   grid-gap: 10px;
   padding: 2px 16px;
-
 }

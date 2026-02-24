@@ -3,16 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import '../src/card.css';
 import './serchbox.css';
-import App from './app'
-
-
-
-
+import App from './App';
 
 ReactDOM.render(
-    
-    <div >
-       < App />
-    </div>    
-    , document.getElementById('root'));
-
+    <div>
+        <App />
+    </div>,
+    document.getElementById('root')
+);
